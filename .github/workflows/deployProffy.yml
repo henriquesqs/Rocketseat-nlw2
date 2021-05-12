@@ -33,7 +33,7 @@ jobs:
     
     # Setup node.js
     - name: Setup Node.js environment
-      uses: actions/setup-node@v2.1.3
+      uses: actions/setup-node@v2.1.5
       with:
         # Version Spec of the version to use.  Examples: 12.x, 10.15.1, >=10.15.0
         node-version: 10.x
@@ -43,7 +43,7 @@ jobs:
       
     - name: Start react web app
       #working-directory: /home/runner/work/rocketseat-nlw2/rocketseat-nlw2/web
-      uses: JamesIves/github-pages-deploy-action@4.0.0-beta-01
+      uses: JamesIves/github-pages-deploy-action@4.1.3
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages # The branch the action should deploy to.
