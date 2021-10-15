@@ -13,7 +13,7 @@
 
 ## Instructions (server)
 - Go to *server* folder;
-- Run the app by using `npm start` or `yarn start`.
+- Run the app using `npm start` or `yarn start`.
 - **(IMPORTANT)** This server must be running on the same network as you're going to run web or mobile applications. By default, running this server on your machine on port 3333 and openning the [gihub-page of this repository](https://henriquesqs.github.io/rocketseat-nlw2/#/) will allow you to run the application with a server connection. 
 
 ## Instructions (web)
