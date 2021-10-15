@@ -9,12 +9,12 @@
 
 ## Requisites
 - You must have [npm](https://nodejs.org/en/) or [yarn](https://yarnpkg.com/) package manager in order to install the required packages. 
-- Open a terminal and run `npm install` or `yarn install` to install dependencies.
+- Go to each folder (server, web and mobile), open a terminal and run `npm install` or `yarn install` to install dependencies for each.
 
 ## Instructions (server)
 - Go to *server* folder;
 - Run the app using `npm start` or `yarn start`.
-- **(IMPORTANT)** This server must be running on the same network as you're going to run web or mobile applications. By default, running this server on your machine on port 3333 and openning the [gihub-page of this repository](https://henriquesqs.github.io/rocketseat-nlw2/#/) will allow you to run the application with a server connection. 
+- **(IMPORTANT)** This server must be running on the same network as you're going to run web or mobile applications. By default, running this server on your machine on port 3333 and openning the [gihub-page of this repository](https://henriquesqs.github.io/Rocketseat-nlw2/#/) will allow you to run the application with a server connection. 
 
 ## Instructions (web)
 - Go to *web* folder;
@@ -27,5 +27,5 @@
 
 ## Notes
 - This repo is automated with Github Actions. On every push and PR to master branch with changes on **web or server folder** (and only on these folder), github-pages is auto deployed and updated;
-- To see the full behavior of this application, clone this folder and follow the instructions [above](https://github.com/henriquesqs/rocketseat-nlw2/#instructions-server) to start the local server. This app was made using port 3333 so be sure that this port is open on your firewall.
+- To see the full behavior of this application, clone this folder and follow the instructions [above](https://github.com/henriquesqs/Rocketseat-nlw2/#instructions-server) to start the local server. This app was made using port 3333 so be sure that this port is open on your firewall.
 - By default, running the server on Windows Subsystem for Linux (WSL) **WON'T** allow you to run the mobile application with server connection, only offline version.
