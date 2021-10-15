@@ -2,7 +2,7 @@
     "name": "proffy",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://henriquesqs.github.io/rocketseat-nlw2",
+    "homepage": "https://henriquesqs.github.io/Rocketseat-nlw2",
     "dependencies": {
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.5.0",
